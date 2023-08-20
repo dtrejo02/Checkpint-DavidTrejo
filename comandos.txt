@@ -1,0 +1,34 @@
+ 186  git init
+  187  git config --global user.name "dtrejo02"
+  188  git config --global user.email "dtrejo061102w@gmail.com"
+  189  git remote add origin https://github.com/dtrejo02/Checkpint-DavidTrejo.git
+  190  touch main.js
+  191  touch index.html
+  192  git add .
+  193  git commit -m "Commit 01 de DavidTrejo"
+  194  git push origin main
+  195  git branch feature
+  196  git checkout feature
+  197  mkdir Hardware
+  198  mkdir Software
+  199  mkdir SeguridadInformatica
+  200  cd Hardware
+  201  touch resumen.txt
+  202  cd .
+  203  cd ..
+  204  cd SeguridadInformatica
+  205  touch resumen.txt
+  206  cd ..
+  207  cd Software
+  208  touch resumen.txt
+  209  cd ..
+  210  git add .
+  211  git commit -m "Commit 02 DavidTrejo"
+  212  git push origin feature
+  213  git checkout main
+  214  mv main.js resumenHardware.txt
+  215  mv index.html resumenSoftware.txt
+  216  git add .
+  217  git commit -m "Commit 03 DavidTrejo"
+  218  git push origin main
+  219  touch comandos.txt
